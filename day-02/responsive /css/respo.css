@@ -1,0 +1,44 @@
+body {
+    background-color: blue;
+    font-size: larger;
+}
+@media only screen and (max-width:1400px) {
+    body{ 
+      background-color: red;
+    }
+    body::before {
+        content: "1200px"
+    }
+  }
+  @media only screen and (max-width:1200px) {
+    body{ 
+      background-color: rgb(243, 66, 66);
+    }
+    body::before {
+        content: "100px"
+    }
+  }
+  @media only screen and (max-width:976px) {
+    body{ 
+      background-color: rgb(251, 124, 124);
+    }
+    body::before {
+        content: "00px"
+    }
+  }
+  @media only screen and (max-width:768px) {
+    body{ 
+      background-color: rgb(136, 1, 1);
+    }
+    body::before {
+        content: "112200px"
+    }
+  }
+  @media only screen and (max-width:576px) {
+    body{ 
+      background-color: rgb(38, 1, 1);
+    }
+    body::before {
+        content: "120230px"
+    }
+  }

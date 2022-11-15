@@ -1,0 +1,40 @@
+
+.brder {
+    position: relative;
+}
+input {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border: 4px solid beige;
+    border-radius: 50%;
+    transition: linear 0.5s;
+}
+
+input:focus {
+    width: 400px;
+    border-radius: 100px;
+    padding-left: 500px;
+}
+input {
+    width: 150px;
+    height: 150px;
+}
+input {
+    padding: 10px;
+}
+img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.camel  {
+    position: absolute;
+    margin-top: 250px;
+}
+.camel h1 {
+    position: absolute;
+    padding: 30px;
+}
