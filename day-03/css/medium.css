@@ -1,0 +1,8 @@
+@media only screen and (max-width:976px) {
+    body{ 
+      background-color: rgb(251, 124, 124);
+    }
+    body::before {
+        content: "00px"
+    }
+  }
