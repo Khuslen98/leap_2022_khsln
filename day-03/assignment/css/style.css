@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+}
+img {
+    width:15%;
+    border-radius: 10px;
+    margin: 5px;
+}
+.art-2 {
+    display: flex;
+    margin-bottom: 20px;
+}
+.art-2 img {
+    width: 30%;
+    margin-right: 20px;
+}
+.Perce-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+.Perce-img img {
+    width: 100%;
+    margin: 10px;
+    border-radius: 10px;
+    height: max-content;
+}
+.art-2 {
+    margin-bottom: 20px ;
+}
+.art-2 img {
+    width: 30%;
+    height:fit-content
+}
+.art-3 {
+    background-color: antiquewhite;
+    padding: 10px 10px;
+    border-radius: 20px;
+    width: 25%;
+}
+.flo-1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.art-2-main {
+    width: 70%;
+}

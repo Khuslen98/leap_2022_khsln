@@ -1,0 +1,27 @@
+.Perce-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+.Perce-img img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+    height: max-content;
+}
+.art-2 {
+    display: flex;
+    margin-bottom: 30px;
+}
+.art-2 img {
+    width: 30%;
+    object-fit:contain
+}
+.art-3 {
+    background-color: antiquewhite;
+    padding: 10px 10px;
+    border-radius: 20px;
+    width: 100%;
+}
+.art-2-main {
+    width: 100%;
+}
