@@ -2,6 +2,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+/* ----------------Header------------- */
 .header-nav {
     display: flex;
     justify-content: space-between;
@@ -12,10 +13,64 @@
     width: 10%;
     height: 10%;
 }
+.links-1 {
+    margin-top: 20px;
+}
 .links-1 a {
     text-decoration: none;
     margin: 10px;
     color: gray;
     justify-content: center;
     text-align: center;
+    margin-top: 20px;
+}
+/* -----------------section-1---------------- */
+.art-main {
+    display: flex;
+    width: 1280px;
+    margin: auto;
+    margin-top: 5em;
+}
+.art-main h2 {
+    font-size: 3rem;
+}
+/* .art-m1 {
+    width: 50%;
+} */
+.art-m1 img {
+    width: 100%;
+}
+.art-m2 {
+    /* width: 50%; */
+    margin-left: 2em;
+}
+.art-m2 button {
+    padding: 2em;
+    color: white;
+    background-color: blueviolet;
+}
+/* -------------------footer------------------- */
+footer {
+    background-color: antiquewhite;
+    margin-top: 4em;
+}
+.footer-art {
+    width: 1280px;
+    margin: auto;
+    text-align: center;
+    padding-top: 2em;
+}
+.footer-1-paras button {
+    padding: 2em;
+    color: blueviolet;
+    background-color: white;
+    border: 1px solid blueviolet;
+}
+.footer-logos {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-logos img {
+    width: 30%;
+    margin: 1.2em;
 }
