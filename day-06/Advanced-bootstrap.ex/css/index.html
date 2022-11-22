@@ -2,55 +2,341 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced bootstrap Exercise</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced bootstrap Exercise</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
 </head>
 
-<body class="bg-secondary">
-    <!-- -----header----- -->
-    <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">about</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    service
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-              </ul>
+<body class="container bg-dark p-3">
+  <!-- -----header----- -->
+  <header class="mb-4">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand text-white" href="#">Logo brand</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">about</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="row">
+    <div class="col-12 text-center text-white mb-4">
+      <h1 class="f-wrap"> Better solutions <span class="text-warning"> for your business</span> </h1>
+      We're the integrated learning ssolution that delivers impactful programs for everyone
+      <div class="d-flex justify-content-center mb-4">
+        <button type="button" class="btn btn-primary my-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Get Started
+        </button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Name</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, obcaecati? Recusandae inventore
+                expedita
+                esse ratione fugiat aliquid, nobis tempore, ad cupiditate harum laborum nihil dolor ducimus, enim
+                reprehenderit hic excepturi!
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
             </div>
-          </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="mb-4">
+        <img src="img/moon_eclipse.jpeg" class="img-fluid rounded-circle" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="text-center rounded bg-light mb-4">
+        <img src="img/lays-1.jpeg" class="img-fluid" style="height:7rem;" alt="">
+        <h5>ABOUT US</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi nostrum, vitae voluptatibus mollitia eos
+          corporis consectetur repellat aliquid eum praesentium quibusdam fugiat dicta architecto omnis ut porro est!
+          Neque, incidunt.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A quos, mollitia harum ipsum dolore natus vel
+          delectus autem quas excepturi similique blanditiis nostrum nam adipisci laudantium possimus debitis, rerum
+          fuga.</p>
+        <button type="button" data-bs-toggle="collapse" data-bs-target="#button_1" class="bg-secondary mb-4">READ
+          MORE</button>
+        <div id="button_1" class="collapse">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, eius sint. Architecto nemo, fuga culpa
+            necessitatibus consequatur repellat voluptatum eius aspernatur eveniet ut tempore odio doloribus temporibus!
+            Quas, nihil mollitia.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="text-center rounded bg-light">
+        <h5>Service</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi nostrum, vitae voluptatibus mollitia eos
+          corporis consectetur repellat aliquid eum praesentium quibusdam fugiat dicta architecto omnis ut porro est!
+          Neque, incidunt.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A quos, mollitia harum ipsum dolore natus vel
+          delectus autem quas excepturi similique blanditiis nostrum nam adipisci laudantium possimus debitis, rerum
+          fuga.</p>
+        <button type="button" data-bs-toggle="collapse" data-bs-target="#button_2" class="bg-secondary mb-4">READ
+          MORE</button>
+        <div id="button_2" class="collapse">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, eius sint. Architecto nemo, fuga culpa
+            necessitatibus consequatur repellat voluptatum eius aspernatur eveniet ut tempore odio doloribus temporibus!
+            Quas, nihil mollitia.</p>
+        </div>
+        <div>
+          <img src="img/lays-2.jpeg" class="img-fluid mb-4" style="height:7rem;" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="text-center my-4">
+        <h2 class="text-light mb-4">FAQ</h2>
+        <div class="accordion bg-secondary" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                Where exactly are you located?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, nam. Delectus, tempora aperiam. Voluptate
+                sed ipsa mollitia? At recusandae veritatis eos quasi voluptas laudantium voluptatem, unde, quis, eius
+                cumque laborum?
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                How much does it cost to attend?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias repellendus nam, perspiciatis,
+                laudantium quas blanditiis quidem assumenda, deserunt accusamus illum necessitatibus corrupti impedit.
+                Vero fuga cum facere illo nostrum aperiam?
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                What do i need to know?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam odit voluptates voluptate in itaque
+                veritatis at ad, incidunt impedit, consectetur quod iste iusto saepe ipsam aspernatur molestias alias
+                suscipit quos!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                How do i sign in?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam odit voluptates voluptate in itaque
+                veritatis at ad, incidunt impedit, consectetur quod iste iusto saepe ipsam aspernatur molestias alias
+                suscipit quos!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                Do you help me a find a job?
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam odit voluptates voluptate in itaque
+                veritatis at ad, incidunt impedit, consectetur quod iste iusto saepe ipsam aspernatur molestias alias
+                suscipit quos!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col text-white text-center my-4">
+      <h5>Our team</h5>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur veritatis dolore, a minus libero quod
+        repellat exercitationem ratione magnam tenetur harum? Nemo sapiente velit porro veniam quasi nihil inventore
+        autem.</p>
+    </div>
+  </div>
+  <div class="card-group">
+    <div class="card text-center m-2 rounded d-flex justify-content-center">
+      <div>
+        <img class="card-img-top rounded-circle" src="img/eye.jpeg" style="width:10rem;" alt="Card image cap">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Joe Brosnon</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+          content. This content is a little bit longer.</p>
+      </div>
+      <div class="card-footer">
+        <img src="img/lays-1.jpeg" style="width:5rem " alt="">
+        <img src="img/lays-2.jpeg" style="width:4.5rem " alt="">
+        <img src="img/lays-3.jpeg" style="width:5rem " alt="">
+      </div>
+    </div>
+    <div class="card text-center m-2 rounded d-flex justify-content-center">
+      <div>
+        <img class="card-img-top rounded-circle" src="img/eye.jpeg" style="width:10rem;" alt="Card image cap">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Joe Brosnon</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+          content. This content is a little bit longer.</p>
+      </div>
+      <div class="card-footer">
+        <img src="img/lays-1.jpeg" style="width:5rem " alt="">
+        <img src="img/lays-2.jpeg" style="width:4.5rem " alt="">
+        <img src="img/lays-3.jpeg" style="width:5rem " alt="">
+      </div>
+    </div>
+    <div class="card text-center m-2 rounded d-flex justify-content-center">
+      <div>
+        <img class="card-img-top rounded-circle" src="img/eye.jpeg" style="width:10rem;" alt="Card image cap">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Joe Brosnon</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+          content. This content is a little bit longer.</p>
+      </div>
+      <div class="card-footer">
+        <img src="img/lays-1.jpeg" style="width:5rem " alt="">
+        <img src="img/lays-2.jpeg" style="width:4.5rem " alt="">
+        <img src="img/lays-3.jpeg" style="width:5rem " alt="">
+      </div>
+    </div>
+    <div class="card text-center m-2 rounded d-flex justify-content-center">
+      <div>
+        <img class="card-img-top rounded-circle" src="img/eye.jpeg" style="width:10rem;" alt="Card image cap">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Joe Brosnon</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+          content. This content is a little bit longer.</p>
+      </div>
+      <div class="card-footer">
+        <img src="img/lays-1.jpeg" style="width:5rem " alt="">
+        <img src="img/lays-2.jpeg" style="width:4.5rem " alt="">
+        <img src="img/lays-3.jpeg" style="width:5rem " alt="">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col text-left m-2 rounded text-light" style="width:2rem">
+        <h5>Contact Info</h5>
+        <p class="border-bottom" style="width: 20rem"><strong>Main Location:</strong> 50 Main st boston MA </p>
+        <p class="border-bottom" style="width: 20rem"><strong>Enrollment Phone:</strong> 50 Main st boston MA</p>
+        <p class="border-bottom" style="width: 20rem"><strong>Student phone:</strong> 50 Main st boston MA </p>
+        <p class="border-bottom" style="width: 20rem"><strong>Enrollment email:</strong> 50 Main st boston MA </p>
+        <p style="width: 20rem"><strong>Student email:</strong> 50 Main st boston MA </p>
+      </div>
+    </div>
+  </div>
+  <footer class="container text-light">
+    <div class="row">
+      <div class="col">
+        <h5 class="my3">Logo Brand</h5>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam cum dol</p>
+        <p><strong>Phone:</strong> +1 5589 55488 55</p>
+        <p><strong>Email:</strong> example</p>
+        <h5>Useful Links</h5>
+        <div class="col">
+          <div class="row">
+            <a href="#" class="text-decoration-none">Home</a>
+            <a href="#" class="text-decoration-none">About us</a>
+            <a href="#" class="text-decoration-none">Service</a>
+            <a href="#" class="text-decoration-none">Terms of service</a>
+            <a href="#" class="text-decoration-none">Privacy Policy</a>
+          </div>
+        </div>
 
-    </header>
+        <h5 class="my-3">Our Services</h5>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam cum dol</p>
+        <p><strong>Phone:</strong> +1 5589 55488 55</p>
+        <p><strong>Email:</strong> example</p>
+        <h5>Useful Links</h5>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
+        <div class="col">
+          <div class="row">
+            <a href="#" class="text-decoration-none">Web design</a>
+            <a href="#" class="text-decoration-none">Web Developer</a>
+            <a href="#" class="text-decoration-none">Product Management</a>
+            <a href="#" class="text-decoration-none">Marketing</a>
+            <a href="#" class="text-decoration-none">Graphic Design</a>
+          </div>
+        </div>
+        <h5 class="my-3">Our social networks</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis at minima inventore doloribus iste autem
+          deleniti natus optio. Mollitia incidunt quos pariatur quo iusto ipsa repudiandae ratione accusantium corrupti
+          ipsum?</p>
+        <div class="footer d-flex justify-content-space-around">
+          <img src="img/lays-1.jpeg" style="width:2.5rem " alt="">
+          <img src="img/lays-2.jpeg" style="width:2rem " alt="">
+          <img src="img/lays-3.jpeg" style="width:2.5rem " alt="">
+        </div>
+        <p class="border-top text-center">Copyright @ 2022 logo brand</p>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
