@@ -15,27 +15,41 @@
   <!-- -----header----- -->
   <header class="mb-4">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand text-white" href="#">Logo brand</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">about</a>
-          </li>
-        </ul>
+      <div class="col-6 col-sm-2">
+        <a class="navbar-brand text-white" href="#">Logo brand</a>
+      </div>
+      <div class="col-sm-8 d-none d-sm-block"></div>
+      <div class="col-6 d-flex justify-content-end col-sm-2">
+        <div class="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">about</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   </header>
   <div class="row">
     <div class="col-12 text-center text-white mb-4">
-      <h1 class="f-wrap"> Better solutions <span class="text-warning"> for your business</span> </h1>
-      We're the integrated learning ssolution that delivers impactful programs for everyone
+      <div class="row p-4rem">
+        <div class="col-12 col-sm-6 p-4rem">
+          <h1 class="f-wrap"> Better solutions <span class="text-warning"> for your business</span> </h1>
+          We're the integrated learning ssolution that delivers impactful programs for everyone
+        </div>
+        <div class="col col-sm-6">
+          <img src="img/moon_eclipse.jpeg" class="img-fluid rounded d-none d-sm-block" alt="">
+        </div>
+      </div>
       <div class="d-flex justify-content-center mb-4">
         <button type="button" class="btn btn-primary my-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
           Get Started
@@ -65,10 +79,10 @@
         </div>
       </div>
     </div>
-      <div class="mb-4">
-        <img src="img/moon_eclipse.jpeg" class="img-fluid rounded-circle" alt="">
-      </div>
+    <div class="mb-4">
+      <img src="img/moon_eclipse.jpeg" class="img-fluid rounded-circle" alt="">
     </div>
+  </div>
   </div>
   <div class="row">
     <div class="col">
@@ -287,45 +301,52 @@
   </div>
   <footer class="container text-light">
     <div class="row">
-      <div class="col">
-        <h5 class="my3">Logo Brand</h5>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam cum dol</p>
-        <p><strong>Phone:</strong> +1 5589 55488 55</p>
-        <p><strong>Email:</strong> example</p>
-        <h5>Useful Links</h5>
-        <div class="col">
-          <div class="row">
-            <a href="#" class="text-decoration-none">Home</a>
-            <a href="#" class="text-decoration-none">About us</a>
-            <a href="#" class="text-decoration-none">Service</a>
-            <a href="#" class="text-decoration-none">Terms of service</a>
-            <a href="#" class="text-decoration-none">Privacy Policy</a>
+      <!-- <div class="col"> -->
+        <div class="col col-sm-3">
+          <h5 class="my3">Logo Brand</h5>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam cum dol</p>
+          <p><strong>Phone:</strong> +1 5589 55488 55</p>
+          <p><strong>Email:</strong> example</p>
+          <h5>Useful Links</h5>
+          <div class="col">
+            <div class="row">
+              <a href="#" class="text-decoration-none">Home</a>
+              <a href="#" class="text-decoration-none">About us</a>
+              <a href="#" class="text-decoration-none">Service</a>
+              <a href="#" class="text-decoration-none">Terms of service</a>
+              <a href="#" class="text-decoration-none">Privacy Policy</a>
+            </div>
           </div>
         </div>
-
-        <h5 class="my-3">Our Services</h5>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam cum dol</p>
-        <p><strong>Phone:</strong> +1 5589 55488 55</p>
-        <p><strong>Email:</strong> example</p>
-        <h5>Useful Links</h5>
-
-        <div class="col">
-          <div class="row">
-            <a href="#" class="text-decoration-none">Web design</a>
-            <a href="#" class="text-decoration-none">Web Developer</a>
-            <a href="#" class="text-decoration-none">Product Management</a>
-            <a href="#" class="text-decoration-none">Marketing</a>
-            <a href="#" class="text-decoration-none">Graphic Design</a>
+        <div class="col col-sm-3">
+          <h5 class="my-3">Our Services</h5>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam cum dol</p>
+          <p><strong>Phone:</strong> +1 5589 55488 55</p>
+          <p><strong>Email:</strong> example</p>
+        </div>
+        <div class="col col-sm-3">
+          <h5>Useful Links</h5>
+          <div class="col">
+            <div class="row">
+              <a href="#" class="text-decoration-none">Web design</a>
+              <a href="#" class="text-decoration-none">Web Developer</a>
+              <a href="#" class="text-decoration-none">Product Management</a>
+              <a href="#" class="text-decoration-none">Marketing</a>
+              <a href="#" class="text-decoration-none">Graphic Design</a>
+            </div>
           </div>
         </div>
-        <h5 class="my-3">Our social networks</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis at minima inventore doloribus iste autem
-          deleniti natus optio. Mollitia incidunt quos pariatur quo iusto ipsa repudiandae ratione accusantium corrupti
-          ipsum?</p>
-        <div class="footer d-flex justify-content-space-around">
-          <img src="img/lays-1.jpeg" style="width:2.5rem " alt="">
-          <img src="img/lays-2.jpeg" style="width:2rem " alt="">
-          <img src="img/lays-3.jpeg" style="width:2.5rem " alt="">
+        <div class="col col-sm-3">
+          <h5 class="my-3">Our social networks</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis at minima inventore doloribus iste autem
+            deleniti natus optio. Mollitia incidunt quos pariatur quo iusto ipsa repudiandae ratione accusantium
+            corrupti
+            ipsum?</p>
+          <div class="footer d-flex justify-content-space-around">
+            <img src="img/lays-1.jpeg" style="width:2.5rem " alt="">
+            <img src="img/lays-2.jpeg" style="width:2rem " alt="">
+            <img src="img/lays-3.jpeg" style="width:2.5rem " alt="">
+          </div>
         </div>
         <p class="border-top text-center">Copyright @ 2022 logo brand</p>
       </div>
