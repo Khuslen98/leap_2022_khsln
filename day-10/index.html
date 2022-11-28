@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js tutorial</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+    <script src="js/paper-full.min.js"></script>
+
+
+</head>
+
+<body>
+    <h1>JS BY </h1>
+    <script type="text/paperscript" canvas="myCanvas">
+        var path = new Path();
+        path.strokeColor = 'black';
+        var start = new Point(100, 100);
+        path.moveTo(start);
+        path.lineTo(start + [ 100, -50 ]);
+        
+        var topLeft = new Point(300, 20);
+        var rectSize = new Size(200, 100);
+
+        var rect = new Rectangle(topLeft, rectSize);
+        
+        var path = new Path.Rectangle(rect, 4);
+
+        path.fillColor = "salmon"
+
+        console.log(rect); // { x: 10, y: 20, width: 200, height: 100 }
+        console.log(rect.point); // { x: 10, y: 20 }
+        console.log(rect.size); // { width: 200, height: 100 }
+
+<!-- ------------------------------------------- -->
+        var path = new Path();
+        path.strokeColor = 'green';
+        var start = new Point(100, 100);
+        path.moveTo(start);
+        path.lineTo(start + [ 100, -50 ]);
+
+        var topLeft = new Point(100, 300);
+        var rectSize = new Size(500, 500);
+
+        var rect = new Rectangle(topLeft, rectSize);
+
+        var path = new Path.Circle(rect, 40);
+
+        path.fillColor = "gold"
+
+        console.log(rect); // { x: 10, y: 20, width: 200, height: 100 }
+        console.log(rect.point); // { x: 10, y: 20 }
+        console.log(rect.size); // { width: 200, height: 100 }
+
+       
+      </script>
+
+
+    <canvas id="myCanvas" resize></canvas>
+    <!-- <script>
+        var myPoint = new Point(10: 20)
+    </script> -->
+
+
+</body>
+
+</html>
