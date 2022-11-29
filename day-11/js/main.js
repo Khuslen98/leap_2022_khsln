@@ -167,16 +167,67 @@
 // }
 // console.log(dayName)
 
-console.log ("эерэг сөрөг тоо олох арга болмой")
 
-let n = prompt ("Write number")
 
-if (0 < n) {
-        console.log('эерэг')
-    }
-    else if(0 > n){
-        console.log('сөрөг')
-    }
+// console.log ("эерэг сөрөг тоо олох арга болмой")
+
+// let n = prompt ("Write number")
+
+// if (0 < n) {
+//         console.log('эерэг')
+//     }
+//     else if(0 > n){
+//         console.log('сөрөг')
+//     }
+
+// ---------------dasgal ajil 1----------------
+
+// let utga = prompt ("Give Utga");
+// let utgaNumber = Number(utga);
+// // console.log(utgaNumber);
+// // console.log(typeof(utga));
+// let nudUtga;
+// switch (utgaNumber) {
+//     case 1:
+//         nudUtga = "A";
+//         break;
+//     case 2:
+//         nudUtga = "B";
+//         break;
+//     case 3:
+//         nudUtga = "C";
+//         break;
+//     case 4:
+//         nudUtga = "D";
+//         break;
+//     case 5:
+//         nudUtga = "E";
+//         break;
+//     default:
+//         nudUtga = "NO ABC";
+//         break;
+// }
+// console.log(nudUtga)
+
+// -----------------dasgal ajil-2---------------
+
+
+let a = ("85")
+let b = ("75")
+let c = ("96")
+let d = ("69")
+ if (a >80) { 
+    console.log(a)
+ }
+ if (b >80) { 
+    console.log(b)
+ }
+ if (c >80) { 
+    console.log(c)
+ }
+ if (d >80) { 
+    console.log(d)
+ }
 
 
 
