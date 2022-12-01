@@ -1,0 +1,9 @@
+* {
+    text-align: center;
+    align-items: center;
+}
+h1 {
+    background-color: bisque;
+    height: 200px;
+    font-size: xx-large
+}

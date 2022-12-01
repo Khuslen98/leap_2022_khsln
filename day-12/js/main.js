@@ -171,14 +171,14 @@
 
 // ------------------Phone Number EXERCISE-----------
 
-let cellNumber = prompt ("put ur numeeeer")
-let mngNumber = "+976"
-let cNumber = cellNumber.substr(4,12)
-let mngNum = mngNumber.substr(0,4)
-if (mngNumber== '+976' && Number.isInteger(Number(cNumber)) && cellNumber.length== 12) {
-    console.log("Correct") 
-} else {
-    console.log("Wrong")
-}
+// let cellNumber = prompt ("put ur numeeeer")
+// let mngNumber = "+976"
+// let cNumber = cellNumber.substr(4,12)
+// let mngNum = mngNumber.substr(0,4)
+// if (mngNumber== '+976' && Number.isInteger(Number(cNumber)) && cellNumber.length== 12) {
+//     console.log("Correct") 
+// } else {
+//     console.log("Wrong")
+// }
 
 // -------------------BAIRSHIL OLOH----------------- INDEXOF
