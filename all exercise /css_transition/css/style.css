@@ -3,18 +3,19 @@ h2 {
     margin-bottom: 20px ;
 }
 .blue {
-    transition: width 4s;
+    transition: width 1s;
     background-color: blue;
     width: 300px;
     height: 300px;
     transition-timing-function: ease-in;
 }
 .blue:hover {
+}
+.blue:active{
     width: 1280px;
-    pointer-events: nonne;
 }
 .green {
-    transition: width 4s;
+    transition: width 1s;
     background-color: rgb(0, 255, 115);
     width: 300px;
     height: 300px;
@@ -23,3 +24,4 @@ h2 {
 .green:hover {
     width: 1280px;
 }
+

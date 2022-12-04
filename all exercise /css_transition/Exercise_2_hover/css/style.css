@@ -1,0 +1,25 @@
+.Main_hover {
+    display: flex;
+    align-items: center;
+    background-color: tomato;
+    width: 200px;
+    height: 100px;
+    justify-content: center;
+    transition: width 1s, height 2s;
+    margin: 10px 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.Main_hover:hover {
+    background: aqua;
+    width: 300px;
+    height: 150px;
+}
+.Ex_hover:hover {
+    color: blue
+}
+.Ex_hover:active {
+    color: blue;
+    font-size: 150%;
+}
