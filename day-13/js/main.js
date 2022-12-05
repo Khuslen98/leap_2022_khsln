@@ -148,25 +148,25 @@ console.log(Math.floor(Math.random()* 100 + 1))
 
 // ---------exercises-------
 
-let max = Number(prompt("give number"));
-let count = 1;
+// let max = Number(prompt("give number"));
+// let count = 1;
 
-let sum = 0 ;
+// let sum = 0 ;
 
 
-while (count < max) {
-    console.log(count);
-    count = count + 1;
-    sum = sum + count;
-    console.log(sum)                                                                                        ;
-    console.log(count)
-}
-let max = 10;
-let start = 0; 
-while (start < max){
-    start%2 == 0;
-    console.log(start)
-    start= start + 1; 
-    console.log(start)
-}
-console.log(start)
+// while (count < max) {
+//     console.log(count);
+//     count = count + 1;
+//     sum = sum + count;
+//     console.log(sum)                                                                                        ;
+//     console.log(count)
+// }
+// let max = 10;
+// let start = 0; 
+// while (start < max){
+//     start%2 == 0;
+//     console.log(start)
+//     start= start + 1; 
+//     console.log(start)
+// }
+// console.log(start)

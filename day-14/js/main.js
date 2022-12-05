@@ -35,11 +35,11 @@
 // let str = "Life is Beautiful";
 // let count = 0; 
 
-// // while (count < str.length) {
-// //     console.log(str.charAt(count));
-// //     count = count + 1;
-// // }
+// while (count < str.length) {
+//     console.log(str.charAt(count));
+//     count = count + 1;
+// }
 
 // for (str; count < str.length; count++){
 //     console.log(str.charAt(count));
-//     }
+    // }

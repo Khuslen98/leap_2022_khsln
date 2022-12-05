@@ -117,16 +117,16 @@
 // }
 
 // // ----------------chartAt index------------------ tuhain stringinn dotorh haracter medeh arga, ymar turliin medeelel baih ystoig zaaj ugdug "registeriin dugaariig todorhoilohod heregledeg"
-// // const str = "life, the universe and everything. " ;
-// // console.log(str.charAt(0));
-// // console.log(str[1]) ;
+// const str = "ppfe, the universe and everything. " ;
+// console.log(str.charAt(0));
+// console.log(str[1]) ;
 
-// // ---MINII CODE----
-// // console.log(registerNumber(0) +' _ ' + registerNumber[1])
+// ---MINII CODE----
+// console.log(registerNumber(0) +' _ ' + registerNumber[1])
 
-// // ---BAGSH CODE---
-// // console.log(registerNumber.charAt(0))
-// // console.log(registerNumber[1])
+// ---BAGSH CODE---
+// console.log(registerNumber.charAt(0))
+// console.log(registerNumber[1])
 
 // // ---------------TOM BOLON JIJIG USEGD HURVUULEH-----------
 // // const str = "life, the universe and everything. " ;

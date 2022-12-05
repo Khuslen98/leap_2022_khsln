@@ -11,7 +11,9 @@
     cursor: pointer;
     
 }
-
+.Ex_hover {
+    transition: font-size .5s ease;
+}
 .Main_hover:hover {
     background: aqua;
     width: 300px;

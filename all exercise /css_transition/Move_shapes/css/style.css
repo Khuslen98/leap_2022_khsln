@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+section {
+    width: 1280px;
+    margin:0 auto;
+    position: relative;
+    background-color: aquamarine;
+}
+.Main_hover {
+    background: blue;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.Main_hover2 {
+    background-color: green;
+}
+
+.Main_hover3 {
+    background-color: red;
+}
+p {
+    margin: 70px;
+}
