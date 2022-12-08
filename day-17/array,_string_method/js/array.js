@@ -112,6 +112,7 @@ console.log(jiguurten.join('-'));
 console.log('pop array function')
 let popFunc = (arr) => {
     console.log(arr.length - 1)
+    
     let poppedArray = []
 
     for( let i = 0; i< arr.length; i++){
