@@ -25,3 +25,27 @@ let teacher = {
 }
 
 teacher.introduction()
+
+let teacherDolgorclone = teacherDolgor;
+teacherDolgorclone.firstName = "Dolgor clone";
+console.log(teacherDolgor.firstName);
+console.log(teacherDolgorclone.firstName);
+
+let teacherDolgorRealclone = {...teacherDolgor};
+teacherDolgorRealClone.firstName = "Dolgor Real Clone";
+console.log(teacherDolgorRealClone.firstName);
+console.log(teacherDolgor.firstName);
+
+
+console.log(Object.keys(teacherDolgor));
+console.log(Object.values(teacherDolgor));
+
+let newTeacher = Object.create({
+    firstName: "ojoj",
+    lastName: "gogojojo",
+})
+console.log(newTeacher);
+
+Object.assign({
+
+}, newTeacher)
