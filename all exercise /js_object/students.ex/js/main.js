@@ -18,16 +18,15 @@ const student = [
         single: true
     }
 ]
-let age = 2022 - student[i].birthOfYear;
-// function findOlderStudents(array) {
-//     for (let i = 0; i < array.length; i++) {
-//         // let age = 2022 - array[i].birthOfYear;
-//         if (age > 20) {
-//             console.log(array[i].name);
-//         }
-//     }
+function findOlderStudents(array) {
+    for (let i = 0; i < array.length; i++) {
+        let age = 2022 - array[i].birthOfYear;
+        if (age > 20) {
+            console.log(array[i].name);
+        }
+    }
 
-// }
+}
 // function age(array){
 //     for (let i = 0; i < array.length; i++) {
 //         let age = 2022 - array[i].birthOfYear;
@@ -36,13 +35,8 @@ let age = 2022 - student[i].birthOfYear;
 //     // console.log("age")
 // }
 
-if (age < 20) {
-    console.log("too young")
-} else {
-    console.log("older")
-}
-
-age < 20 ? console.log("too young") : console.log("older");
+let age = 20; 
+if (age < 20)
 
 
 findOlderStudents(student)
