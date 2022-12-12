@@ -13,7 +13,7 @@
 let arr1 = [1, 4, 5, 6, 8, 10, 3, 2, 10, 9];
 console.log(arr1);
 for (let i = 0; i < arr1.length; i++) {
-    if (i % 2 == 0) {
+    if (i % 2 !== 0) {
         arr1[i] = arr1[i] + 4;
     } else {
         arr1[i] = arr1[i] - 5;
