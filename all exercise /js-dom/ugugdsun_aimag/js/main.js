@@ -42,7 +42,7 @@ document.getElementsByTagName("span")[0].innerHTML = "hahahah";
 
 for (let i = 0; i < document.getElementById("aimagNames").getElementsByTagName("li").length; i++) {
     if (document.getElementById("aimagNames").getElementsByTagName("li")[i].id.includes("aimag-1")) {
-        document.getElementById("aimagNames").getElementsByTagName("li")[i].style = "background-color: gold; border: 2px solid gray; border-radius: 8px; color: white; padding: 10px; "
+        document.getElementById("aimagNames").getElementsByTagName("li")[i].style = "background-color: gold; ; border-radius: 8px; color: white; padding: 10px; "
     } else if (document.getElementById("aimagNames").getElementsByTagName("li")[i].id.includes("aimag-2")) {
         document.getElementById("aimagNames").getElementsByTagName("li")[i].style = "background-color: silver; border: 2px solid gray; border-radius: 8px; color: white; padding: 10px;"
     } else if (document.getElementById("aimagNames").getElementsByTagName("li")[i].id.includes("aimag-3")) {
