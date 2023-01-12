@@ -56,7 +56,7 @@ console.log(timeoutID);
 
 setTimeout(() => {
     console.log("Time out is running");
-}, 5000);
+}, 8000);
 
 let counter = 0;
 
