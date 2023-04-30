@@ -229,8 +229,9 @@ let d = ("69")
     console.log(d)
  }
 
-
-
+const name = 'Nonji'
+console.log(name);
+console.log("Hello from moon, beautiful lady called", {name})
 
 
 
